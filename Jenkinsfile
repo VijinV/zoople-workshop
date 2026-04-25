@@ -6,7 +6,7 @@ pipeline {
         CONTAINER_NAME = 'vijin-app'
         APP_PORT = '3000'
         DOMAIN = 'vijin.workshop.zoople.in'
-        NGINX_DIR = '/var/lib/jenkins/nginx'
+        NGINX_DIR = '/home/ubuntu/nginx'
     }
 
     stages {
